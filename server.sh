@@ -50,3 +50,14 @@ do
         echo "\nRestarting server... ($(date '+%Y-%m-%d %H:%M:%S'))\n"
         sleep 1
 done
+
+
+echo "
+mp_stopwatch 1
+mp_friendlyfire 1
+mp_scalespawntime 0
+mp_autoteambalance 0
+mp_rounds 10
+mp_punishvotes 0
+sv_pausable 0
+" >> /home/steam/Steam/steamapps/common/DystopiaDedicatedServer/dystopia/cfg/server.cfg
