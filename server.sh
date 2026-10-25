@@ -38,7 +38,7 @@ fi
 $STEAMCMD_PATH +force_install_dir $GAME_PATH \
         +login anonymous \
         +app_update 17585 \
-        -beta release_candidate \
+        -beta default \
         +quit
 
 export LD_LIBRARY_PATH="${GAME_PATH}"/bin:"${GAME_PATH}"/bin/linux32:$LD_LIBRARY_PATH
